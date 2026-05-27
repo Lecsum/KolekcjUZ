@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KolekcjUZ")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+93f22022cd4e3d050ae922986de72a1dc81df699")]
 [assembly: System.Reflection.AssemblyProductAttribute("KolekcjUZ")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KolekcjUZ")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
