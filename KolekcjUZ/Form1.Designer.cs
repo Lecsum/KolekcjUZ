@@ -22,35 +22,35 @@
             this.btnCreateDb = new System.Windows.Forms.Button();
             this.panelTopMenu.SuspendLayout();
             this.SuspendLayout();
-   
+
             this.panelTopMenu.BackColor = System.Drawing.SystemColors.ControlDark;
             this.panelTopMenu.Controls.Add(this.btnListDbs);
             this.panelTopMenu.Controls.Add(this.btnCreateDb);
             this.panelTopMenu.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelTopMenu.Location = new System.Drawing.Point(0, 0);
             this.panelTopMenu.Name = "panelTopMenu";
-            this.panelTopMenu.Size = new System.Drawing.Size(984, 60);
+            this.panelTopMenu.Size = new System.Drawing.Size(1200, 60); 
             this.panelTopMenu.TabIndex = 1;
-    
+
             this.btnListDbs.Location = new System.Drawing.Point(160, 12);
             this.btnListDbs.Name = "btnListDbs";
             this.btnListDbs.Size = new System.Drawing.Size(130, 35);
             this.btnListDbs.TabIndex = 1;
-            this.btnListDbs.Text = "Otwórz Bazę";
+            this.btnListDbs.Text = "Otwórz  Bazę";
             this.btnListDbs.UseVisualStyleBackColor = true;
             this.btnListDbs.Click += new System.EventHandler(this.btnListDbs_Click);
-   
+
             this.btnCreateDb.Location = new System.Drawing.Point(12, 12);
             this.btnCreateDb.Name = "btnCreateDb";
             this.btnCreateDb.Size = new System.Drawing.Size(132, 35);
             this.btnCreateDb.TabIndex = 0;
-            this.btnCreateDb.Text = "Stwórz Nową Bazu";
+            this.btnCreateDb.Text = "Stwórz Nową Bazę";
             this.btnCreateDb.UseVisualStyleBackColor = true;
             this.btnCreateDb.Click += new System.EventHandler(this.btnCreateDb_Click);
 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(984, 661);
+            this.ClientSize = new System.Drawing.Size(1500, 800); 
             this.Controls.Add(this.panelTopMenu);
             this.IsMdiContainer = true;
             this.Name = "Form1";

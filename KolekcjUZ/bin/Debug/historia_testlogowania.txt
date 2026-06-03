@@ -1,0 +1,39 @@
+-- [2026-06-03 09:06:19]
+CREATE TABLE [yy] (
+    Id INT IDENTITY(1,1) PRIMARY KEY,
+    [rr] DATETIME
+);
+GO
+
+-- [2026-06-03 09:06:47]
+CREATE TABLE [test1] (
+    Id INT IDENTITY(1,1) PRIMARY KEY,
+    [gg] VARCHAR(250),
+    [jj] INT
+);
+GO
+
+-- [2026-06-03 09:06:59]
+INSERT INTO [test1] ([gg], [jj]) VALUES ('frt', 77);
+GO
+
+-- [2026-06-03 09:07:10]
+INSERT INTO [test1] ([gg], [jj]) VALUES ('ui', 1);
+GO
+
+-- [2026-06-03 09:08:03]
+ALTER TABLE [yy] ADD [rr] FLOAT NULL;
+GO
+
+-- [2026-06-03 09:08:27]
+ALTER TABLE [yy] ADD [rr] FLOAT NULL;
+GO
+
+-- [2026-06-03 09:08:30]
+ALTER TABLE [yy] DROP COLUMN [rr];
+GO
+
+-- [2026-06-03 09:08:32]
+ALTER TABLE [yy] ADD [rr] DATETIME NULL;
+GO
+

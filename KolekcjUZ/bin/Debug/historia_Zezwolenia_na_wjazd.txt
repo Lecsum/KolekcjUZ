@@ -1,0 +1,23 @@
+-- [2026-06-03 09:11:52]
+CREATE TABLE [Dostawcy] (
+    Id INT IDENTITY(1,1) PRIMARY KEY,
+    [Imię] VARCHAR(250),
+    [Nazwisko] VARCHAR(250)
+);
+GO
+
+-- [2026-06-03 09:12:13]
+CREATE TABLE [Firmy] (
+    Id INT IDENTITY(1,1) PRIMARY KEY,
+    [Nazwa] VARCHAR(250)
+);
+GO
+
+-- [2026-06-03 09:13:09]
+ALTER TABLE [Dostawcy] ADD [Nazwa_firmy] INT NULL;
+GO
+
+-- [2026-06-03 09:13:09]
+ALTER TABLE [Dostawcy] ADD CONSTRAINT [FK_Dostawcy_Nazwa_firmy_Firmy] FOREIGN KEY ([Nazwa_firmy]) REFERENCES [Firmy]([Id]);
+GO
+

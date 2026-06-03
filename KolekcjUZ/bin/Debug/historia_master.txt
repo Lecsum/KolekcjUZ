@@ -1,0 +1,16 @@
+-- [2026-06-03 09:05:37]
+CREATE DATABASE [testlogowania]
+GO
+
+-- [2026-06-03 09:10:48]
+CREATE DATABASE [Dostawcy]
+GO
+
+-- [2026-06-03 09:10:59]
+DROP DATABASE [Dostawcy];
+GO
+
+-- [2026-06-03 09:11:20]
+CREATE DATABASE [Zezwolenia_na_wjazd]
+GO
+
